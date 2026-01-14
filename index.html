@@ -1,0 +1,53 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lightboard – Victor Valley College</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="titles">
+      <h1>Lightboard</h1>
+      <h2>Victor Valley College</h2>
+    </div>
+
+    <div class="legend">
+      <div class="legend-title">Arrow Key Legend</div>
+      <div class="legend-items">
+  <div>← Prosecutor</div>
+  <div>↑ Witness</div>
+  <div>↓ Judge</div>
+  <div>→ Defense</div>
+</div>
+    </div>
+  </header>
+
+  <main class="grid">
+    <button class="card" id="prosecutor" aria-pressed="false">
+      <img src="images/prosecutor.jpg" alt="Prosecutor" />
+      <div class="name">Prosecutor</div>
+    </button>
+
+    <button class="card" id="witness" aria-pressed="false">
+      <img src="images/witness.jpg" alt="Witness" />
+      <div class="name">Witness</div>
+    </button>
+
+    <button class="card" id="judge" aria-pressed="false">
+      <img src="images/judge.jpg" alt="Judge" />
+      <div class="name">Judge</div>
+    </button>
+
+    <button class="card" id="defense" aria-pressed="false">
+      <img src="images/defense.jpg" alt="Defense" />
+      <div class="name">Defense</div>
+    </button>
+  </main>
+
+  <p class="tip">Use your arrow keys (← ↓ ↑ →). You can also click a person.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
